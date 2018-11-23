@@ -32,8 +32,8 @@
                     <td><?=$d->isbn ?></td>
                     <td><?=$d->category ?></td>
                     <td> 
-                        <a href="">edit</a>
-                        <a href="">delete</a>
+                        <a href="edit.php?id=<?=$d->id?>">edit</a>
+                        <a href="delete.php?id=<?=$d->id?>">delete</a>
                     </td>
                 </tr>
             <?php } ?>
